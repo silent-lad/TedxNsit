@@ -157,7 +157,7 @@ html.js,
 	width: 100%;
 	height: 100vh;
 	pointer-events: auto;
-	background: #2a2b30;
+	background: #fff;
 	box-shadow: 0 -1px 10px rgba(8, 0, 0, 0.3);
 }
 
@@ -182,6 +182,10 @@ html.js,
 	font-size: 1.25em;
 	max-width: 50%;
 	margin-top: 1.5em;
+}
+
+img.poster {
+	opacity: 0.3
 }
 
 .poster {
