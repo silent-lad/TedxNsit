@@ -1,13 +1,4 @@
-/**
- * main.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2015, Codrops
- * http://www.codrops.com
- */
+
 ;(function(window) {
 
 	'use strict';
@@ -72,7 +63,7 @@
 				else {
 					// invisible pages in the stack
 					page.style.WebkitTransform = 'translate3d(0,75%,-300px)';
-					page.style.transform = 'translate3d(0,75%,-300px)';		
+					page.style.transform = 'translate3d(0,75%,-300px)';
 				}
 			}
 			else {
@@ -80,7 +71,7 @@
 			}
 
 			page.style.zIndex = i < current ? parseInt(current - i) : parseInt(pagesTotal + current - i);
-			
+
 			if( posIdx !== -1 ) {
 				page.style.opacity = parseFloat(1 - 0.1 * posIdx);
 			}
@@ -118,7 +109,7 @@
 
 		// keyboard navigation events
 		document.addEventListener( 'keydown', function( ev ) {
-			if( !isMenuOpen ) return; 
+			if( !isMenuOpen ) return;
 			var keyCode = ev.keyCode || ev.which;
 			if( keyCode === 27 ) {
 				closeMenu();
@@ -183,7 +174,7 @@
 		if( id ) {
 			current = futureCurrent;
 		}
-		
+
 		// close menu..
 		classie.remove(menuCtrl, 'menu-button--open');
 		classie.remove(nav, 'pages-nav--open');
