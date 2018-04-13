@@ -235,14 +235,22 @@ a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   margin: 10px 5px;
-  max-width: 200px;
-  min-width: 200px;
+  max-width: 300px;
+  min-width: 50px;
   overflow: hidden;
   position: relative;
   text-align: left;
   width: 100%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+}
+
+@media screen and (max-width:786px) {
+	.snip1543 {
+		margin: 25px 7px 25px 10px ;
+		height: 86px;
+		width: 125px;
+	}
 }
 
 .snip1543 *,
@@ -399,6 +407,35 @@ iframe {
 #page-custom h1 {
 	margin-top: -50px;
 }
+#map {
+	position: absolute;
+	bottom: 25px;
+	left: 5%;
+  width: 90%;
+	height: 35vh;
+	opacity: 0.8;
+}
+.contacthead {
+	position: absolute;
+	top: 2vh;
+	left: 5%;
+}
+.speakerhead {
+	position:relative;
+	top: -10vh;
+	left: 5%;
+}
+.speak {
+	position: absolute;
+	top: 25vh;
+	width: 100%;
+}
+.cont {
+	font-size: 30px;
+	position: relative;
+	top: 15vh;
+	left: 5%;
+}
 
 
 @media screen and (max-width:786px){
@@ -411,4 +448,23 @@ iframe {
 		position: relative;
 		top: -80px;
 	}
+	.ted {
+		font-size: 60px;
+	}
+	.contacthead,.speakerhead {
+		font-size: 30px;
+	}
+	.cont {
+		font-size: 17px;
+	}
+}
+.i1.key,.i2.key {
+	position: relative;
+	left: -100px;
+	margin: 30px
+}
+.i3.key,.i4.key {
+	position: relative;
+	left: 100px;
+	margin: 30px
 }

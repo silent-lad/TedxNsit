@@ -17,6 +17,7 @@
 		<link rel="stylesheet" type="text/css" href="css/animate.css" />
 		<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 		<script src="js/modernizr-custom.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -26,7 +27,7 @@
 			<div class="pages-nav__item"><a class="link link--page" href="#page-home">Home</a></div>
 			<div class="pages-nav__item"><a class="link link--page" href="#page-docu">Past Speakers</a></div>
 			<!-- <div class="pages-nav__item"><a class="link link--page" href="#page-software">Register</a></div> -->
-			<div class="pages-nav__item"><a class="link link--page" href="#page-custom">Contact Us &amp; Find Us</a></div>
+			<div class="pages-nav__item"><a class="link link--page" href="#page-custom">Contact Us</a></div>
 			<div class="pages-nav__item pages-nav__item--social">
 				<a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
 				<a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
@@ -46,8 +47,8 @@
 							<div class="container-fluid my-5" style=" position: fixed; ">
 								<div class="row justify-content-center">
 									<div class="col-sm-12">
-										<h1 class="display-3 text-danger text-center mb-2"><span style="font-weight: bold;">Ted<sup>x</sup><br></span><span class="text-white">NSIT</span></h1>
-										<h2 class="text-center mb-5">x<span class="text-white">=independently organized TED event</span></h1>
+										<h1 class="ted display-3 text-danger text-center mb-2"><span style="font-weight: 900;">TED<sup>x</sup></span><span class="text-white">NSIT</span></h1>
+										<h2 class="text-center mb-5 text-danger">x<span class="text-white">=independently organized TED event</span></h1>
 										<!-- <h1 class=" text-light text-center" style="font-family: 'Arvo', serif;">Mind Map To</h1> -->
 										<!-- <br>
 										<br>
@@ -70,23 +71,60 @@
 			<!-- ======================================================== -->
 			<!-- Past Speaker -->
 			<div class="page" id="page-docu">
-				<header class="bp-header cf">
-					<h1 class="display-4 text-info">Past Speakers</h1>
-					<figure class="snip1543">
-						<img src="./img/Speaker/ajay_kumar.png" alt="sample108" />
+				<header class="">
+					<section class="content">
+						<div class="container-fluid my-5" style=" position: fixed; ">
+							<div class="row justify-content-center">
+								<div class="col-sm-12">
+									<h1 class="display-3 text-info speakerhead pt-5 mb-2">Speakers</h1>
+								</div>
+							</div>
+						</div>
+						<div class="row speak justify-content-center">
+							<div class="col-md-12 col-lg-3">
+								<figure class="snip1543 i1 key">
+								<img src="./img/Barkha.jpg" alt="sample108" />
+								<figcaption>
+									<h3>Barkha Singh</h3>
+								</figcaption>
+							</figure>
+							<figure class="snip1543 i2 key">
+							<img src="./img/Akshay.jpg" alt="sample108" />
+							<figcaption>
+								<h3>Akshay</h3>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-12 col-lg-3">
+						<figure class="snip1543 i3 key">
+						<img src="./img/VisheshDeep.jpg" alt="sample108" />
 						<figcaption>
-							<h3>Ajay Kumar</h3>
+							<h3>Vishesh Deep</h3>
 						</figcaption>
-						<a class="fancybox fancybox.iframe" data-fancybox-group="gallery" href="https://www.youtube.com/embed/5Oou8dzniHY?list=PL82T9UJBp4fXNvO7Nx3A0fTL3veyazyHQ"><i class="fa fa-eye"></i></a>
 					</figure>
-					<figure class="snip1543"><img src="./img/Speaker/akshar-pathak.png" />
-						<figcaption>
-							<h3>Akshay Pathak</h3>
-							<p>The real fun of living wisely is that you get to be smug about it.</p>
-						</figcaption>
-						<a href="#"></a>
-					</figure>
-
+					<figure class="snip1543 i4 key">
+					<img src="./img/Shubhrashta.jpg" alt="sample108" />
+					<figcaption>
+						<h3>Shubhrashta</h3>
+					</figcaption>
+				</figure>
+				</div>
+							<!-- <figure class="snip1543">
+								<img src="./img/Speaker/ajay_kumar.png" alt="sample108" />
+								<figcaption>
+									<h3>Ajay Kumar</h3>
+								</figcaption>
+								<a class="fancybox fancybox.iframe" data-fancybox-group="gallery" href="https://www.youtube.com/embed/5Oou8dzniHY?list=PL82T9UJBp4fXNvO7Nx3A0fTL3veyazyHQ"><i class="fa fa-eye"></i></a>
+							</figure>
+							<figure class="snip1543"><img src="./img/Akshay.jpg" />
+								<figcaption>
+									<h3>Akshay Pathak</h3>
+									<p>The real fun of living wisely is that you get to be smug about it.</p>
+								</figcaption>
+								<a href="#"></a>
+							</figure> -->
+						</div>
+					</section>
 				</header>
 				<img class="poster" src="img/x.png" alt="img06" />
 			</div>
@@ -99,32 +137,26 @@
 			</div> -->
 			<!-- ================================================================= -->
 			<div class="page" id="page-custom">
-				<header class="bp-header cf">
-					<h1 class="display-4 text-info">Contact Us &amp; Find Us</h1>
-					<div class="container">
-						<div class="row">
-
-							<!-- <div class="col-md-4 col-sm-6 col-xs-12">
-								<div class="contact-left wow fadeInLeft">
-									<h2>Contact Us</h2>
-
-										<address class="single-address">
-              <h4>Campus:</h4>
-              <p>Azad Hind Fauz Marg, Sector-3, Dwarka, New Delhi - 110078</p>
+				<header class="">
+					<section class="content">
+						<div class="container-fluid my-5" style=" position: fixed; ">
+							<div class="row justify-content-center">
+								<div class="col-12 ">
+									<h1 class="display-3 text-info contacthead pt-5 mb-2">Contact Us</h1>
+									<address class="single-address">
+              <h4 class="text-dark cont">Campus:</h4>
+              <p class="text-dark cont">Azad Hind Fauz Marg, Sector-3, Dwarka, New Delhi - 110078</p>
             </address>
-										<address class="single-address">
-              <h4>E-Mail:<a href="mailto:tedxnsit@nsitonline.in"> tedxnsit@nsitonline.in</a> </h4>
-              <p><a href="mailto:tpardhe@gmail.com">Tushar Pardhe:tpardhe@gmail.com </a></p>
+            <address class="single-address">
+              <h4 class="text-dark cont">E-Mail:<a href="mailto:tedxnsit@nsitonline.in"> tedxnsit@nsitonline.in</a> </h4>
+              <p class="cont"><a href="mailto:divyansh2998@icloud.com">Divyansh Tripathi:divyansh2998@icloud.com </a></p>
             </address>
-									</div>
-								</div> -->
-
+								</div>
 							</div>
-				</div>
-
+						</div>
+					</section>
 				</header>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.687990597696!2d77.03287991544587!3d28.609135591889586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d053516783c9b%3A0x7e540ab22a28446!2sNetaji+Subhas+Institute+Of+Technology!5e0!3m2!1sen!2sin!4v1457589461797"
-				  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div id="map"></div>
 				<img class="poster" src="img/x.png" alt="img06" />
 			</div>
 
@@ -218,11 +250,241 @@
 			}
 			next()
 		</script>
+		<script type="text/javascript">
+		$(window).on('resize', function() {
+			var win = $(this);
+				if (win.width() > 786) {
+
+		$('.snip1543').addClass('key');
+
+		} else {
+		$('.snip1543').removeClass('key');
+		}
+		});
+		</script>
 		<script src="js/classie.js"></script>
 		<script src="js/main.js"></script>
 		<!-- scripts -->
 		<script src="./js/particles.js"></script>
 		<script src="./js/app.js"></script>
+		<script>
+			// (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+			// function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+			// e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+			// e.src='//www.google-analytics.com/analytics.js';
+			// r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+			// ga('create','UA-XXXXX-X');ga('send','pageview');
+			function initMap() {
+				// var styledMapType = new google.maps.StyledMapType(
+				// 	[{
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#212121"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"elementType": "labels.icon",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#757575"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"elementType": "labels.text.stroke",
+				// 			"stylers": [{
+				// 				"color": "#212121"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "administrative",
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#757575"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "administrative.country",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#9e9e9e"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "administrative.land_parcel",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "administrative.locality",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#bdbdbd"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "administrative.neighborhood",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "poi",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#757575"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "poi.park",
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#181818"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "poi.park",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#616161"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "poi.park",
+				// 			"elementType": "labels.text.stroke",
+				// 			"stylers": [{
+				// 				"color": "#1b1b1b"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road",
+				// 			"elementType": "geometry.fill",
+				// 			"stylers": [{
+				// 				"color": "#2c2c2c"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road",
+				// 			"elementType": "labels",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#8a8a8a"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.arterial",
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#373737"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.arterial",
+				// 			"elementType": "labels",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.highway",
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#3c3c3c"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.highway",
+				// 			"elementType": "labels",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.highway.controlled_access",
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#4e4e4e"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.local",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "road.local",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#616161"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "transit",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#757575"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "water",
+				// 			"elementType": "geometry",
+				// 			"stylers": [{
+				// 				"color": "#000000"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "water",
+				// 			"elementType": "labels.text",
+				// 			"stylers": [{
+				// 				"visibility": "off"
+				// 			}]
+				// 		},
+				// 		{
+				// 			"featureType": "water",
+				// 			"elementType": "labels.text.fill",
+				// 			"stylers": [{
+				// 				"color": "#3d3d3d"
+				// 			}]
+				// 		}
+				// 	], {
+				// 		name: 'Styled Map'
+				// 	});
+				var uluru = {
+					lat: 28.6080516,
+					lng: 77.0361871
+				};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 15,
+					center: uluru,
+					// mapTypeControlOptions: {
+					// 	mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+					// 		'styled_map'
+					// 	]
+					// }
+				});
+				// map.mapTypes.set('styled_map', styledMapType);
+				// map.setMapTypeId('styled_map');
+				var marker = new google.maps.Marker({
+					position: uluru,
+					map: map
+				});
+			}
+		</script>
+		<!-- google maps-->
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi1-aFgFjvtCVDCveIzygv8iMHjgxAFlQ&callback=initMap">
+		</script>
 
 	</body>
 
