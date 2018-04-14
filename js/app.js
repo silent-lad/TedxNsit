@@ -75,7 +75,7 @@ particlesJS('particles-js',
     "events": {
       "onhover": {
         "enable": true,
-        "mode": ""
+        "mode": "grab"
       },
       "onclick": {
         "enable": true,
